@@ -13,4 +13,4 @@ while True:
         print("Answer yes or no..")
         continue
 
-print("We have completed the steps prior and are bring this to a close")
+print("You have completed the steps prior and thus bringing this to a close")
