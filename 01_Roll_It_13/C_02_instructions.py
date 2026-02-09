@@ -14,11 +14,24 @@ def yes_no(question):
         else:
             print("Answer yes or no..")
 
+
+def instructions():
+    """Print instructions"""
+
+    print("""
+***INSTRUCTIONS***
+
+Partake in rolling the dice and attempt to win.
+    """)
+
 # Main routine
-while True:
 
-    want_instructions = yes_no("Would you like to see the instructions?").lower()
-    print(f"you have chosen to answer {want_instructions}")
+want_instructions = yes_no("Would you like to see the instructions?").lower()
 
 
-print("You have completed the steps prior and thus bringing this to a close")
+
+if want_instructions == "yes":
+    instructions()
+
+print()
+print("Program continues")
