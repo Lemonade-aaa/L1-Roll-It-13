@@ -1,3 +1,8 @@
+username = input("What you you like to be referred as?")
+print(f"hello {username}")
+
+
+
 first= "apple"
 second = "banana"
 
